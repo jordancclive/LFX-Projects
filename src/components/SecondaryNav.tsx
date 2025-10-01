@@ -21,11 +21,6 @@ export const SecondaryNav = ({
         path: '/kubernetes/insights',
         hideInMVP: true
       }, {
-        name: 'Marketing',
-        icon: <MegaphoneIcon className="h-5 w-5" />,
-        path: '/kubernetes/marketing',
-        hideInMVP: true
-      }, {
         name: 'Meetings',
         icon: <CalendarDaysIcon className="h-5 w-5" />,
         path: '/kubernetes/meetings'
@@ -46,6 +41,10 @@ export const SecondaryNav = ({
         icon: <UsersIcon className="h-5 w-5" />,
         path: '/kubernetes/committees'
       }, {
+        name: 'Marketing',
+        icon: <MegaphoneIcon className="h-5 w-5" />,
+        path: '/kubernetes/marketing'
+      }, {
         name: 'Permissions',
         icon: <KeyIcon className="h-5 w-5" />,
         path: '/kubernetes/permissions'
@@ -55,11 +54,6 @@ export const SecondaryNav = ({
         name: 'Insights',
         icon: <BarChartIcon className="h-5 w-5" />,
         path: '/pytorch/insights',
-        hideInMVP: true
-      }, {
-        name: 'Marketing',
-        icon: <MegaphoneIcon className="h-5 w-5" />,
-        path: '/pytorch/marketing',
         hideInMVP: true
       }, {
         name: 'Meetings',
@@ -81,6 +75,10 @@ export const SecondaryNav = ({
         name: 'Committees',
         icon: <UsersIcon className="h-5 w-5" />,
         path: '/pytorch/committees'
+      }, {
+        name: 'Marketing',
+        icon: <MegaphoneIcon className="h-5 w-5" />,
+        path: '/pytorch/marketing'
       }, {
         name: 'Permissions',
         icon: <KeyIcon className="h-5 w-5" />,
